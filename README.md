@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+🚀 SubTrack Sentinel
+Personal Subscription Monitoring and Alert System
+📖 Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SubTrack Sentinel is a full-stack web application designed to help users monitor, manage, and analyze their digital subscriptions efficiently.
 
-## Available Scripts
+With the rapid increase in subscription-based services such as OTT platforms, cloud storage, music streaming, and software tools, users often lose track of renewal dates and total monthly expenses.
 
-In the project directory, you can run:
+This system provides a centralized dashboard that tracks subscriptions, monitors renewal timelines, and helps prevent unwanted auto-renewals and financial leakage.
 
-### `npm start`
+🎯 Problem Statement
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Many users subscribe to multiple digital services but:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Forget renewal dates
 
-### `npm test`
+Pay unnecessary recurring charges
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Lack visibility of total monthly/yearly subscription cost
 
-### `npm run build`
+Miss cancellation deadlines
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+SubTrack Sentinel solves this problem by providing a structured and automated monitoring solution.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⚙️ What The Project Does
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The system allows users to:
 
-### `npm run eject`
+Add and manage subscription details
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Track renewal dates
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Monitor monthly and yearly expenses
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Receive renewal alerts
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+View subscription analytics via dashboard
 
-## Learn More
+Categorize subscriptions (OTT, Software, Utilities, etc.)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Maintain secure user authentication
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🏗️ Tech Stack
+🔹 Frontend
 
-### Code Splitting
+React.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+HTML5
 
-### Analyzing the Bundle Size
+CSS3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+JavaScript
 
-### Making a Progressive Web App
+🔹 Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Node.js
 
-### Advanced Configuration
+Express.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🔹 Database
 
-### Deployment
+MongoDB
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+🔹 Additional Tools
 
-### `npm run build` fails to minify
+Git & GitHub
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+REST APIs
+
+JWT Authentication 
+
+✨ Key Features
+
+✅ User Registration & Login
+
+✅ Add / Edit / Delete Subscriptions
+
+✅ Automatic Renewal Tracking
+
+✅ Monthly & Yearly Expense Calculation
+
+✅ Dashboard Overview
+
+✅ Secure Backend API
+
+🚀 Installation & Initialization Steps
+
+Follow these steps to run the project locally:
+
+1️⃣ Clone the Repository
+git clone https://github.com/himabellamkonda/Subscription-Tracking-Sentinel.git
+cd subtrack
+2️⃣ Install Frontend Dependencies
+npm install
+3️⃣ Install Backend Dependencies
+cd backend
+npm install
+4️⃣ Configure Environment Variables
+
+Create a .env file inside the backend folder and add:
+
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+JWT_SECRET=your_secret_key
+5️⃣ Run Backend Server
+cd backend
+npm start
+6️⃣ Run Frontend
+npm start
+7️⃣ Open in Browser
+http://localhost:3000
+
+
+
+
