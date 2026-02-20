@@ -1,115 +1,93 @@
-🚀 SubTrack Sentinel
-Personal Subscription Monitoring and Alert System
-📖 Overview
 
-SubTrack Sentinel is a full-stack web application designed to help users monitor, manage, and analyze their digital subscriptions efficiently.
+### 🚀 SubTrack Sentinel
+Subscription Tracking Sentinel is a Personal Subscription Monitoring and Alert System developed to help users efficiently monitor, manage, and analyze their digital subscriptions in one centralized platform.
 
-With the rapid increase in subscription-based services such as OTT platforms, cloud storage, music streaming, and software tools, users often lose track of renewal dates and total monthly expenses.
+In today’s digital era, users subscribe to multiple services such as OTT platforms, cloud storage, music streaming, and productivity tools. However, managing renewal dates and tracking recurring expenses becomes difficult, often resulting in financial leakage due to missed cancellations and unnoticed auto-renewals.
 
-This system provides a centralized dashboard that tracks subscriptions, monitors renewal timelines, and helps prevent unwanted auto-renewals and financial leakage.
+This system provides a structured and automated solution to monitor subscription timelines, calculate expenses, and enhance financial awareness.
 
-🎯 Problem Statement
 
-Many users subscribe to multiple digital services but:
+## 🔍 What Does This Project Do?
+# The application allows users to:
 
-Forget renewal dates
+Register and securely log in
 
-Pay unnecessary recurring charges
+Add, update, and delete subscriptions
 
-Lack visibility of total monthly/yearly subscription cost
+Track renewal dates automatically
 
-Miss cancellation deadlines
-
-SubTrack Sentinel solves this problem by providing a structured and automated monitoring solution.
-
-⚙️ What The Project Does
-
-The system allows users to:
-
-Add and manage subscription details
-
-Track renewal dates
-
-Monitor monthly and yearly expenses
-
-Receive renewal alerts
-
-View subscription analytics via dashboard
+View upcoming renewals
 
 Categorize subscriptions (OTT, Software, Utilities, etc.)
 
-Maintain secure user authentication
+Calculate total monthly & yearly expenses
 
-🏗️ Tech Stack
-🔹 Frontend
+Access a dashboard summary
 
-React.js
 
-HTML5
+---
 
-CSS3
+### ✨ Key Features
+- **✅ User Registration & Login**
+- **✅ Add / Edit / Delete Subscriptions**
+- **✅ Automatic Renewal Tracking**
+- **✅ Monthly & Yearly Expense Calculation**
+- **✅ Dashboard Overview**
+- **✅ Secure Backend API**
 
-JavaScript
 
-🔹 Backend
 
-Node.js
+# ⚙️ Installation Steps
 
-Express.js
+Follow these steps to set up and run the **Subscription-Tracking-Sentinel** locally:
 
-🔹 Database
 
-MongoDB
 
-🔹 Additional Tools
+### 1️⃣ **Clone the Repository**
 
-Git & GitHub
-
-REST APIs
-
-JWT Authentication 
-
-✨ Key Features
-
-✅ User Registration & Login
-
-✅ Add / Edit / Delete Subscriptions
-
-✅ Automatic Renewal Tracking
-
-✅ Monthly & Yearly Expense Calculation
-
-✅ Dashboard Overview
-
-✅ Secure Backend API
-
-🚀 Installation & Initialization Steps
-
-Follow these steps to run the project locally:
-
-1️⃣ Clone the Repository
-git clone https://github.com/himabellamkonda/Subscription-Tracking-Sentinel.git
+```bash
+git clone https://github.com/himabellamkonda-Subscription-Tracking-Sentinel.git
+```
+```
 cd subtrack
-2️⃣ Install Frontend Dependencies
-npm install
-3️⃣ Install Backend Dependencies
+```
+
+### 2️⃣ Install Backend Dependencies
+```bash
 cd backend
+```
+```
 npm install
-4️⃣ Configure Environment Variables
+```
 
+### 3️⃣ Install Frontend Dependencies
+```bash
+npm install
+```
+
+
+### 4️⃣ Configure Environment Variables
 Create a .env file inside the backend folder and add:
-
+```
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 JWT_SECRET=your_secret_key
-5️⃣ Run Backend Server
+```
+
+
+### 5️⃣ Run the Backend Server
+```
 cd backend
+node server.js
+```
+
+### 5️⃣ Run the Frontend Server
+```
 npm start
-6️⃣ Run Frontend
-npm start
-7️⃣ Open in Browser
+```
+### 6️⃣ Open in Browser
+Once the app starts, it will automatically open in your default web browser at:
+```
 http://localhost:3000
-
-
-
-
+```
+---
